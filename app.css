@@ -63,6 +63,11 @@ a {
     padding: 1rem 0;
 }
 
+.btn-contact {
+    background-color: #1abc9c;
+    color: white;
+}
+
 
 /* MEDIA QUERY _______________________________ */
 
