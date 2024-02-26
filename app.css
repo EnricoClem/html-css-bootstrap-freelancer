@@ -38,8 +38,8 @@ a {
 .divisor::before,
 .divisor::after {
     content: "";
-    width: 100px;
-    height: 3px;
+    width: 60px;
+    height: 2.5px;
     background-color: currentColor;
     display: inline-block;
 }
@@ -123,12 +123,22 @@ a {
         padding: 0 110px;
     }
 
+    .divisor::before,
+    .divisor::after {
+    width: 140px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
     
     .boxed-content {
         padding: 0 50px;
+    }
+
+    .divisor::before,
+    .divisor::after {
+    width: 170px;
     }
 
 }
